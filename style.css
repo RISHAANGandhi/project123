@@ -1,0 +1,19 @@
+.heading{
+    font-size: 30px;
+    color:rgba(140, 255, 0, 0.84);
+    margin-top: 0px;
+    font-family: 'Vujahday Script', cursive;
+}
+.capturebutton{
+ font-family: 'Vujahday Script', cursive;
+ font-size: 25px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 40px red;}
+    to{box-shadow:1px 1px 40px white;}
+}
